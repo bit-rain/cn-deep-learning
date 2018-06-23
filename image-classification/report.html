@@ -11783,7 +11783,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -11841,6 +11841,18 @@ div#notebook {
 <div class="prompt"></div>
 
 
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>All files found!
 </pre>
@@ -11876,7 +11888,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
@@ -11951,7 +11963,7 @@ height=250
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">normalize</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
@@ -12006,7 +12018,7 @@ height=250
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">one_hot_encode</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
@@ -12071,7 +12083,7 @@ height=250
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12097,7 +12109,7 @@ height=250
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12153,7 +12165,7 @@ height=250
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
@@ -12246,7 +12258,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">conv2d_maxpool</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">conv_num_outputs</span><span class="p">,</span> <span class="n">conv_ksize</span><span class="p">,</span> <span class="n">conv_strides</span><span class="p">,</span> <span class="n">pool_ksize</span><span class="p">,</span> <span class="n">pool_strides</span><span class="p">):</span>
@@ -12310,7 +12322,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">flatten</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">):</span>
@@ -12363,7 +12375,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fully_conn</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">num_outputs</span><span class="p">):</span>
@@ -12374,10 +12386,7 @@ Keep Prob Tests Passed.
 <span class="sd">    : return: A 2-D tensor where the second dimension is num_outputs.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement Function</span>
-    <span class="kn">from</span> <span class="nn">functools</span> <span class="k">import</span> <span class="n">reduce</span>
-    <span class="n">x_num</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span> <span class="k">if</span> <span class="n">x</span> <span class="o">!=</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">y</span><span class="p">,</span> <span class="n">x_tensor</span><span class="o">.</span><span class="n">shape</span> <span class="p">)</span>
-    <span class="n">flat</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">x_num</span><span class="p">])</span>
-    <span class="n">dense</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">dense</span><span class="p">(</span><span class="n">inputs</span><span class="o">=</span><span class="n">flat</span><span class="p">,</span> <span class="n">units</span><span class="o">=</span><span class="n">num_outputs</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">relu</span><span class="p">)</span>
+    <span class="n">dense</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">dense</span><span class="p">(</span><span class="n">inputs</span><span class="o">=</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">units</span><span class="o">=</span><span class="n">num_outputs</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">relu</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">dense</span>
 
 
@@ -12422,7 +12431,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">output</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">num_outputs</span><span class="p">):</span>
@@ -12433,10 +12442,7 @@ Keep Prob Tests Passed.
 <span class="sd">    : return: A 2-D tensor where the second dimension is num_outputs.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement Function</span>
-    <span class="kn">from</span> <span class="nn">functools</span> <span class="k">import</span> <span class="n">reduce</span>
-    <span class="n">x_num</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span> <span class="k">if</span> <span class="n">x</span> <span class="o">!=</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">y</span><span class="p">,</span> <span class="n">x_tensor</span><span class="o">.</span><span class="n">shape</span> <span class="p">)</span>
-    <span class="n">flat</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">x_num</span><span class="p">])</span>
-    <span class="n">dense</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">dense</span><span class="p">(</span><span class="n">inputs</span><span class="o">=</span><span class="n">flat</span><span class="p">,</span> <span class="n">units</span><span class="o">=</span><span class="n">num_outputs</span><span class="p">)</span>
+    <span class="n">dense</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">dense</span><span class="p">(</span><span class="n">inputs</span><span class="o">=</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">units</span><span class="o">=</span><span class="n">num_outputs</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">dense</span>
 
 
@@ -12488,7 +12494,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">conv_net</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">keep_prob</span><span class="p">):</span>
@@ -12575,7 +12581,7 @@ Keep Prob Tests Passed.
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>WARNING:tensorflow:From &lt;ipython-input-13-557afd1b4dea&gt;:61: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+<pre>WARNING:tensorflow:From &lt;ipython-input-12-557afd1b4dea&gt;:61: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
 Instructions for updating:
 
 Future major versions of TensorFlow will allow gradients to flow
@@ -12610,7 +12616,7 @@ Neural Network Built!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">train_neural_network</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">keep_probability</span><span class="p">,</span> <span class="n">feature_batch</span><span class="p">,</span> <span class="n">label_batch</span><span class="p">):</span>
@@ -12669,7 +12675,7 @@ Neural Network Built!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">print_stats</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">feature_batch</span><span class="p">,</span> <span class="n">label_batch</span><span class="p">,</span> <span class="n">cost</span><span class="p">,</span> <span class="n">accuracy</span><span class="p">):</span>
@@ -12687,8 +12693,8 @@ Neural Network Built!
                 <span class="n">y</span><span class="p">:</span> <span class="n">label_batch</span><span class="p">,</span>
                 <span class="n">keep_prob</span><span class="p">:</span> <span class="mf">1.</span><span class="p">})</span>
     <span class="n">test_acc</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">accuracy</span><span class="p">,</span> <span class="n">feed_dict</span><span class="o">=</span><span class="p">{</span>
-        <span class="n">x</span><span class="p">:</span> <span class="n">feature_batch</span><span class="p">,</span>
-        <span class="n">y</span><span class="p">:</span> <span class="n">label_batch</span><span class="p">,</span>
+        <span class="n">x</span><span class="p">:</span> <span class="n">valid_features</span><span class="p">,</span>
+        <span class="n">y</span><span class="p">:</span> <span class="n">valid_labels</span><span class="p">,</span>
         <span class="n">keep_prob</span><span class="p">:</span> <span class="mf">1.</span><span class="p">})</span>
     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Loss:</span><span class="si">{}</span><span class="s1"> Accuracy: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">loss</span><span class="p">,</span> <span class="n">test_acc</span><span class="p">))</span>
 </pre></div>
@@ -12721,7 +12727,7 @@ Neural Network Built!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># TODO: Tune Parameters</span>
@@ -12746,7 +12752,7 @@ Neural Network Built!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12781,106 +12787,106 @@ Neural Network Built!
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Checking the Training on a Single Batch...
-Epoch  1, CIFAR-10 Batch 1:  Loss:2.2487404346466064 Accuracy: 0.15000000596046448
-Epoch  2, CIFAR-10 Batch 1:  Loss:2.2467949390411377 Accuracy: 0.15000000596046448
-Epoch  3, CIFAR-10 Batch 1:  Loss:2.1867146492004395 Accuracy: 0.20000000298023224
-Epoch  4, CIFAR-10 Batch 1:  Loss:2.216892957687378 Accuracy: 0.17499999701976776
-Epoch  5, CIFAR-10 Batch 1:  Loss:2.1975414752960205 Accuracy: 0.17499999701976776
-Epoch  6, CIFAR-10 Batch 1:  Loss:2.2318198680877686 Accuracy: 0.17499999701976776
-Epoch  7, CIFAR-10 Batch 1:  Loss:2.264225721359253 Accuracy: 0.15000000596046448
-Epoch  8, CIFAR-10 Batch 1:  Loss:2.245835304260254 Accuracy: 0.15000000596046448
-Epoch  9, CIFAR-10 Batch 1:  Loss:2.3610363006591797 Accuracy: 0.17499999701976776
-Epoch 10, CIFAR-10 Batch 1:  Loss:2.2609193325042725 Accuracy: 0.17499999701976776
-Epoch 11, CIFAR-10 Batch 1:  Loss:2.2509827613830566 Accuracy: 0.15000000596046448
-Epoch 12, CIFAR-10 Batch 1:  Loss:2.2077057361602783 Accuracy: 0.17499999701976776
-Epoch 13, CIFAR-10 Batch 1:  Loss:2.20123553276062 Accuracy: 0.17499999701976776
-Epoch 14, CIFAR-10 Batch 1:  Loss:2.21081805229187 Accuracy: 0.15000000596046448
-Epoch 15, CIFAR-10 Batch 1:  Loss:2.2058849334716797 Accuracy: 0.17499999701976776
-Epoch 16, CIFAR-10 Batch 1:  Loss:2.2511048316955566 Accuracy: 0.15000000596046448
-Epoch 17, CIFAR-10 Batch 1:  Loss:2.2480356693267822 Accuracy: 0.15000000596046448
-Epoch 18, CIFAR-10 Batch 1:  Loss:2.2576706409454346 Accuracy: 0.125
-Epoch 19, CIFAR-10 Batch 1:  Loss:2.305417537689209 Accuracy: 0.125
-Epoch 20, CIFAR-10 Batch 1:  Loss:2.2837955951690674 Accuracy: 0.125
-Epoch 21, CIFAR-10 Batch 1:  Loss:2.3046302795410156 Accuracy: 0.125
-Epoch 22, CIFAR-10 Batch 1:  Loss:2.288196563720703 Accuracy: 0.125
-Epoch 23, CIFAR-10 Batch 1:  Loss:2.2781825065612793 Accuracy: 0.125
-Epoch 24, CIFAR-10 Batch 1:  Loss:2.2803032398223877 Accuracy: 0.125
-Epoch 25, CIFAR-10 Batch 1:  Loss:2.2751026153564453 Accuracy: 0.15000000596046448
-Epoch 26, CIFAR-10 Batch 1:  Loss:2.303650140762329 Accuracy: 0.125
-Epoch 27, CIFAR-10 Batch 1:  Loss:2.3035988807678223 Accuracy: 0.125
-Epoch 28, CIFAR-10 Batch 1:  Loss:2.303525447845459 Accuracy: 0.125
-Epoch 29, CIFAR-10 Batch 1:  Loss:2.3034615516662598 Accuracy: 0.125
-Epoch 30, CIFAR-10 Batch 1:  Loss:2.303429126739502 Accuracy: 0.125
-Epoch 31, CIFAR-10 Batch 1:  Loss:2.303393840789795 Accuracy: 0.125
-Epoch 32, CIFAR-10 Batch 1:  Loss:2.3033604621887207 Accuracy: 0.125
-Epoch 33, CIFAR-10 Batch 1:  Loss:2.303332805633545 Accuracy: 0.125
-Epoch 34, CIFAR-10 Batch 1:  Loss:2.3033111095428467 Accuracy: 0.125
-Epoch 35, CIFAR-10 Batch 1:  Loss:2.303292751312256 Accuracy: 0.125
-Epoch 36, CIFAR-10 Batch 1:  Loss:2.3032913208007812 Accuracy: 0.125
-Epoch 37, CIFAR-10 Batch 1:  Loss:2.30328106880188 Accuracy: 0.125
-Epoch 38, CIFAR-10 Batch 1:  Loss:2.303274393081665 Accuracy: 0.125
-Epoch 39, CIFAR-10 Batch 1:  Loss:2.303271770477295 Accuracy: 0.125
-Epoch 40, CIFAR-10 Batch 1:  Loss:2.2788844108581543 Accuracy: 0.125
-Epoch 41, CIFAR-10 Batch 1:  Loss:2.3032450675964355 Accuracy: 0.125
-Epoch 42, CIFAR-10 Batch 1:  Loss:2.3032641410827637 Accuracy: 0.125
-Epoch 43, CIFAR-10 Batch 1:  Loss:2.303286075592041 Accuracy: 0.125
-Epoch 44, CIFAR-10 Batch 1:  Loss:2.3032920360565186 Accuracy: 0.125
-Epoch 45, CIFAR-10 Batch 1:  Loss:2.303292751312256 Accuracy: 0.125
-Epoch 46, CIFAR-10 Batch 1:  Loss:2.3032937049865723 Accuracy: 0.125
-Epoch 47, CIFAR-10 Batch 1:  Loss:2.3032937049865723 Accuracy: 0.125
-Epoch 48, CIFAR-10 Batch 1:  Loss:2.3032939434051514 Accuracy: 0.125
-Epoch 49, CIFAR-10 Batch 1:  Loss:2.30329966545105 Accuracy: 0.125
-Epoch 50, CIFAR-10 Batch 1:  Loss:2.3032984733581543 Accuracy: 0.125
-Epoch 51, CIFAR-10 Batch 1:  Loss:2.3033034801483154 Accuracy: 0.125
-Epoch 52, CIFAR-10 Batch 1:  Loss:2.303300142288208 Accuracy: 0.125
-Epoch 53, CIFAR-10 Batch 1:  Loss:2.3032455444335938 Accuracy: 0.125
-Epoch 54, CIFAR-10 Batch 1:  Loss:2.3032631874084473 Accuracy: 0.125
-Epoch 55, CIFAR-10 Batch 1:  Loss:2.303276538848877 Accuracy: 0.125
-Epoch 56, CIFAR-10 Batch 1:  Loss:2.3032827377319336 Accuracy: 0.125
-Epoch 57, CIFAR-10 Batch 1:  Loss:2.303290605545044 Accuracy: 0.125
-Epoch 58, CIFAR-10 Batch 1:  Loss:2.3032970428466797 Accuracy: 0.125
-Epoch 59, CIFAR-10 Batch 1:  Loss:2.3032989501953125 Accuracy: 0.125
-Epoch 60, CIFAR-10 Batch 1:  Loss:2.303304672241211 Accuracy: 0.125
-Epoch 61, CIFAR-10 Batch 1:  Loss:2.3033030033111572 Accuracy: 0.125
-Epoch 62, CIFAR-10 Batch 1:  Loss:2.3033077716827393 Accuracy: 0.125
-Epoch 63, CIFAR-10 Batch 1:  Loss:2.303323745727539 Accuracy: 0.125
-Epoch 64, CIFAR-10 Batch 1:  Loss:2.2460379600524902 Accuracy: 0.15000000596046448
-Epoch 65, CIFAR-10 Batch 1:  Loss:2.303408145904541 Accuracy: 0.125
-Epoch 66, CIFAR-10 Batch 1:  Loss:2.3033835887908936 Accuracy: 0.125
-Epoch 67, CIFAR-10 Batch 1:  Loss:2.3033664226531982 Accuracy: 0.125
-Epoch 68, CIFAR-10 Batch 1:  Loss:2.303351640701294 Accuracy: 0.125
-Epoch 69, CIFAR-10 Batch 1:  Loss:2.3033413887023926 Accuracy: 0.125
-Epoch 70, CIFAR-10 Batch 1:  Loss:2.3033361434936523 Accuracy: 0.125
-Epoch 71, CIFAR-10 Batch 1:  Loss:2.3033320903778076 Accuracy: 0.125
-Epoch 72, CIFAR-10 Batch 1:  Loss:2.3033318519592285 Accuracy: 0.125
-Epoch 73, CIFAR-10 Batch 1:  Loss:2.303328514099121 Accuracy: 0.125
-Epoch 74, CIFAR-10 Batch 1:  Loss:2.3033242225646973 Accuracy: 0.125
-Epoch 75, CIFAR-10 Batch 1:  Loss:2.3033223152160645 Accuracy: 0.125
-Epoch 76, CIFAR-10 Batch 1:  Loss:2.3033199310302734 Accuracy: 0.125
-Epoch 77, CIFAR-10 Batch 1:  Loss:2.3033230304718018 Accuracy: 0.125
-Epoch 78, CIFAR-10 Batch 1:  Loss:2.30332612991333 Accuracy: 0.125
-Epoch 79, CIFAR-10 Batch 1:  Loss:2.303328037261963 Accuracy: 0.125
-Epoch 80, CIFAR-10 Batch 1:  Loss:2.3033225536346436 Accuracy: 0.125
-Epoch 81, CIFAR-10 Batch 1:  Loss:2.303318500518799 Accuracy: 0.125
-Epoch 82, CIFAR-10 Batch 1:  Loss:2.3033154010772705 Accuracy: 0.125
-Epoch 83, CIFAR-10 Batch 1:  Loss:2.3033134937286377 Accuracy: 0.125
-Epoch 84, CIFAR-10 Batch 1:  Loss:2.303311347961426 Accuracy: 0.125
-Epoch 85, CIFAR-10 Batch 1:  Loss:2.303309917449951 Accuracy: 0.125
-Epoch 86, CIFAR-10 Batch 1:  Loss:2.3033089637756348 Accuracy: 0.125
-Epoch 87, CIFAR-10 Batch 1:  Loss:2.3033082485198975 Accuracy: 0.125
-Epoch 88, CIFAR-10 Batch 1:  Loss:2.303307294845581 Accuracy: 0.125
-Epoch 89, CIFAR-10 Batch 1:  Loss:2.303307056427002 Accuracy: 0.125
-Epoch 90, CIFAR-10 Batch 1:  Loss:2.303306818008423 Accuracy: 0.125
-Epoch 91, CIFAR-10 Batch 1:  Loss:2.3033063411712646 Accuracy: 0.125
-Epoch 92, CIFAR-10 Batch 1:  Loss:2.3033061027526855 Accuracy: 0.125
-Epoch 93, CIFAR-10 Batch 1:  Loss:2.3033061027526855 Accuracy: 0.125
-Epoch 94, CIFAR-10 Batch 1:  Loss:2.3033061027526855 Accuracy: 0.125
-Epoch 95, CIFAR-10 Batch 1:  Loss:2.3033058643341064 Accuracy: 0.125
-Epoch 96, CIFAR-10 Batch 1:  Loss:2.3033058643341064 Accuracy: 0.125
-Epoch 97, CIFAR-10 Batch 1:  Loss:2.3033053874969482 Accuracy: 0.125
-Epoch 98, CIFAR-10 Batch 1:  Loss:2.3033053874969482 Accuracy: 0.125
-Epoch 99, CIFAR-10 Batch 1:  Loss:2.3033056259155273 Accuracy: 0.125
-Epoch 100, CIFAR-10 Batch 1:  Loss:2.3033058643341064 Accuracy: 0.125
+Epoch  1, CIFAR-10 Batch 1:  Loss:2.2901830673217773 Accuracy: 0.0966000035405159
+Epoch  2, CIFAR-10 Batch 1:  Loss:2.3032174110412598 Accuracy: 0.09520000219345093
+Epoch  3, CIFAR-10 Batch 1:  Loss:2.3032000064849854 Accuracy: 0.09520000219345093
+Epoch  4, CIFAR-10 Batch 1:  Loss:2.3031821250915527 Accuracy: 0.10000000149011612
+Epoch  5, CIFAR-10 Batch 1:  Loss:2.303158760070801 Accuracy: 0.1005999967455864
+Epoch  6, CIFAR-10 Batch 1:  Loss:2.3031177520751953 Accuracy: 0.1005999967455864
+Epoch  7, CIFAR-10 Batch 1:  Loss:2.303069591522217 Accuracy: 0.10019999742507935
+Epoch  8, CIFAR-10 Batch 1:  Loss:2.3030569553375244 Accuracy: 0.1005999967455864
+Epoch  9, CIFAR-10 Batch 1:  Loss:2.303015947341919 Accuracy: 0.10119999945163727
+Epoch 10, CIFAR-10 Batch 1:  Loss:2.303022861480713 Accuracy: 0.10719999670982361
+Epoch 11, CIFAR-10 Batch 1:  Loss:2.3030178546905518 Accuracy: 0.10660000145435333
+Epoch 12, CIFAR-10 Batch 1:  Loss:2.3029911518096924 Accuracy: 0.10779999941587448
+Epoch 13, CIFAR-10 Batch 1:  Loss:2.3029823303222656 Accuracy: 0.10779999941587448
+Epoch 14, CIFAR-10 Batch 1:  Loss:2.302995204925537 Accuracy: 0.10679999738931656
+Epoch 15, CIFAR-10 Batch 1:  Loss:2.3030343055725098 Accuracy: 0.10760000348091125
+Epoch 16, CIFAR-10 Batch 1:  Loss:2.302992582321167 Accuracy: 0.10779999941587448
+Epoch 17, CIFAR-10 Batch 1:  Loss:2.303020715713501 Accuracy: 0.10760000348091125
+Epoch 18, CIFAR-10 Batch 1:  Loss:2.3030266761779785 Accuracy: 0.10819999873638153
+Epoch 19, CIFAR-10 Batch 1:  Loss:2.303025007247925 Accuracy: 0.10840000212192535
+Epoch 20, CIFAR-10 Batch 1:  Loss:2.3030495643615723 Accuracy: 0.10660000145435333
+Epoch 21, CIFAR-10 Batch 1:  Loss:2.3030948638916016 Accuracy: 0.1080000028014183
+Epoch 22, CIFAR-10 Batch 1:  Loss:2.30302095413208 Accuracy: 0.10660000145435333
+Epoch 23, CIFAR-10 Batch 1:  Loss:2.3030056953430176 Accuracy: 0.10599999874830246
+Epoch 24, CIFAR-10 Batch 1:  Loss:2.3030409812927246 Accuracy: 0.10660000145435333
+Epoch 25, CIFAR-10 Batch 1:  Loss:2.302992105484009 Accuracy: 0.10660000145435333
+Epoch 26, CIFAR-10 Batch 1:  Loss:2.302966594696045 Accuracy: 0.10660000145435333
+Epoch 27, CIFAR-10 Batch 1:  Loss:2.302976369857788 Accuracy: 0.10559999942779541
+Epoch 28, CIFAR-10 Batch 1:  Loss:2.3030643463134766 Accuracy: 0.10559999942779541
+Epoch 29, CIFAR-10 Batch 1:  Loss:2.3031179904937744 Accuracy: 0.10559999942779541
+Epoch 30, CIFAR-10 Batch 1:  Loss:2.3031599521636963 Accuracy: 0.10559999942779541
+Epoch 31, CIFAR-10 Batch 1:  Loss:2.3031954765319824 Accuracy: 0.10559999942779541
+Epoch 32, CIFAR-10 Batch 1:  Loss:2.303229570388794 Accuracy: 0.10599999874830246
+Epoch 33, CIFAR-10 Batch 1:  Loss:2.303266763687134 Accuracy: 0.10559999942779541
+Epoch 34, CIFAR-10 Batch 1:  Loss:2.303290843963623 Accuracy: 0.10559999942779541
+Epoch 35, CIFAR-10 Batch 1:  Loss:2.303309202194214 Accuracy: 0.10559999942779541
+Epoch 36, CIFAR-10 Batch 1:  Loss:2.303323268890381 Accuracy: 0.10559999942779541
+Epoch 37, CIFAR-10 Batch 1:  Loss:2.303318738937378 Accuracy: 0.10559999942779541
+Epoch 38, CIFAR-10 Batch 1:  Loss:2.3033227920532227 Accuracy: 0.10559999942779541
+Epoch 39, CIFAR-10 Batch 1:  Loss:2.3033275604248047 Accuracy: 0.10559999942779541
+Epoch 40, CIFAR-10 Batch 1:  Loss:2.3033440113067627 Accuracy: 0.10559999942779541
+Epoch 41, CIFAR-10 Batch 1:  Loss:2.303359031677246 Accuracy: 0.10559999942779541
+Epoch 42, CIFAR-10 Batch 1:  Loss:2.3033604621887207 Accuracy: 0.10580000281333923
+Epoch 43, CIFAR-10 Batch 1:  Loss:2.303359270095825 Accuracy: 0.10580000281333923
+Epoch 44, CIFAR-10 Batch 1:  Loss:2.3033511638641357 Accuracy: 0.10580000281333923
+Epoch 45, CIFAR-10 Batch 1:  Loss:2.3033337593078613 Accuracy: 0.10580000281333923
+Epoch 46, CIFAR-10 Batch 1:  Loss:2.303337812423706 Accuracy: 0.10580000281333923
+Epoch 47, CIFAR-10 Batch 1:  Loss:2.3033275604248047 Accuracy: 0.10580000281333923
+Epoch 48, CIFAR-10 Batch 1:  Loss:2.3033287525177 Accuracy: 0.10580000281333923
+Epoch 49, CIFAR-10 Batch 1:  Loss:2.3033289909362793 Accuracy: 0.10580000281333923
+Epoch 50, CIFAR-10 Batch 1:  Loss:2.303330659866333 Accuracy: 0.10580000281333923
+Epoch 51, CIFAR-10 Batch 1:  Loss:2.3033313751220703 Accuracy: 0.10580000281333923
+Epoch 52, CIFAR-10 Batch 1:  Loss:2.3033180236816406 Accuracy: 0.10559999942779541
+Epoch 53, CIFAR-10 Batch 1:  Loss:2.3033254146575928 Accuracy: 0.10559999942779541
+Epoch 54, CIFAR-10 Batch 1:  Loss:2.30332612991333 Accuracy: 0.10620000213384628
+Epoch 55, CIFAR-10 Batch 1:  Loss:2.3033318519592285 Accuracy: 0.10559999942779541
+Epoch 56, CIFAR-10 Batch 1:  Loss:2.3033559322357178 Accuracy: 0.10660000145435333
+Epoch 57, CIFAR-10 Batch 1:  Loss:2.303368091583252 Accuracy: 0.10679999738931656
+Epoch 58, CIFAR-10 Batch 1:  Loss:2.303375720977783 Accuracy: 0.10679999738931656
+Epoch 59, CIFAR-10 Batch 1:  Loss:2.303391695022583 Accuracy: 0.10580000281333923
+Epoch 60, CIFAR-10 Batch 1:  Loss:2.3033852577209473 Accuracy: 0.10559999942779541
+Epoch 61, CIFAR-10 Batch 1:  Loss:2.303358554840088 Accuracy: 0.10540000349283218
+Epoch 62, CIFAR-10 Batch 1:  Loss:2.3033480644226074 Accuracy: 0.10540000349283218
+Epoch 63, CIFAR-10 Batch 1:  Loss:2.3033242225646973 Accuracy: 0.10540000349283218
+Epoch 64, CIFAR-10 Batch 1:  Loss:2.30332350730896 Accuracy: 0.10540000349283218
+Epoch 65, CIFAR-10 Batch 1:  Loss:2.303330421447754 Accuracy: 0.10540000349283218
+Epoch 66, CIFAR-10 Batch 1:  Loss:2.303321361541748 Accuracy: 0.10559999942779541
+Epoch 67, CIFAR-10 Batch 1:  Loss:2.303328037261963 Accuracy: 0.10559999942779541
+Epoch 68, CIFAR-10 Batch 1:  Loss:2.303332805633545 Accuracy: 0.10559999942779541
+Epoch 69, CIFAR-10 Batch 1:  Loss:2.3033359050750732 Accuracy: 0.10559999942779541
+Epoch 70, CIFAR-10 Batch 1:  Loss:2.303335189819336 Accuracy: 0.10559999942779541
+Epoch 71, CIFAR-10 Batch 1:  Loss:2.3033359050750732 Accuracy: 0.10559999942779541
+Epoch 72, CIFAR-10 Batch 1:  Loss:2.3033385276794434 Accuracy: 0.10559999942779541
+Epoch 73, CIFAR-10 Batch 1:  Loss:2.3033268451690674 Accuracy: 0.10559999942779541
+Epoch 74, CIFAR-10 Batch 1:  Loss:2.3033342361450195 Accuracy: 0.10559999942779541
+Epoch 75, CIFAR-10 Batch 1:  Loss:2.3033454418182373 Accuracy: 0.10559999942779541
+Epoch 76, CIFAR-10 Batch 1:  Loss:2.303349018096924 Accuracy: 0.10559999942779541
+Epoch 77, CIFAR-10 Batch 1:  Loss:2.3033528327941895 Accuracy: 0.10559999942779541
+Epoch 78, CIFAR-10 Batch 1:  Loss:2.3033523559570312 Accuracy: 0.10559999942779541
+Epoch 79, CIFAR-10 Batch 1:  Loss:2.3033485412597656 Accuracy: 0.10559999942779541
+Epoch 80, CIFAR-10 Batch 1:  Loss:2.3033533096313477 Accuracy: 0.10540000349283218
+Epoch 81, CIFAR-10 Batch 1:  Loss:2.303370952606201 Accuracy: 0.10540000349283218
+Epoch 82, CIFAR-10 Batch 1:  Loss:2.303365707397461 Accuracy: 0.10540000349283218
+Epoch 83, CIFAR-10 Batch 1:  Loss:2.303361177444458 Accuracy: 0.10540000349283218
+Epoch 84, CIFAR-10 Batch 1:  Loss:2.303351640701294 Accuracy: 0.10540000349283218
+Epoch 85, CIFAR-10 Batch 1:  Loss:2.3033447265625 Accuracy: 0.10540000349283218
+Epoch 86, CIFAR-10 Batch 1:  Loss:2.3033394813537598 Accuracy: 0.10540000349283218
+Epoch 87, CIFAR-10 Batch 1:  Loss:2.3033549785614014 Accuracy: 0.10540000349283218
+Epoch 88, CIFAR-10 Batch 1:  Loss:2.3033480644226074 Accuracy: 0.10540000349283218
+Epoch 89, CIFAR-10 Batch 1:  Loss:2.3033556938171387 Accuracy: 0.10540000349283218
+Epoch 90, CIFAR-10 Batch 1:  Loss:2.303354024887085 Accuracy: 0.10540000349283218
+Epoch 91, CIFAR-10 Batch 1:  Loss:2.3033525943756104 Accuracy: 0.10540000349283218
+Epoch 92, CIFAR-10 Batch 1:  Loss:2.303358554840088 Accuracy: 0.10540000349283218
+Epoch 93, CIFAR-10 Batch 1:  Loss:2.303356885910034 Accuracy: 0.10540000349283218
+Epoch 94, CIFAR-10 Batch 1:  Loss:2.3033621311187744 Accuracy: 0.10540000349283218
+Epoch 95, CIFAR-10 Batch 1:  Loss:2.3033528327941895 Accuracy: 0.10540000349283218
+Epoch 96, CIFAR-10 Batch 1:  Loss:2.303351879119873 Accuracy: 0.10540000349283218
+Epoch 97, CIFAR-10 Batch 1:  Loss:2.3033511638641357 Accuracy: 0.10540000349283218
+Epoch 98, CIFAR-10 Batch 1:  Loss:2.303356647491455 Accuracy: 0.10540000349283218
+Epoch 99, CIFAR-10 Batch 1:  Loss:2.3033547401428223 Accuracy: 0.10540000349283218
+Epoch 100, CIFAR-10 Batch 1:  Loss:2.303359031677246 Accuracy: 0.10540000349283218
 </pre>
 </div>
 </div>
@@ -12943,270 +12949,172 @@ Epoch 100, CIFAR-10 Batch 1:  Loss:2.3033058643341064 Accuracy: 0.125
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Training...
-Epoch  1, CIFAR-10 Batch 1:  Loss:2.2695472240448 Accuracy: 0.125
-Epoch  1, CIFAR-10 Batch 2:  Loss:2.307277202606201 Accuracy: 0.10000000149011612
-Epoch  1, CIFAR-10 Batch 3:  Loss:2.30147123336792 Accuracy: 0.10000000149011612
-Epoch  1, CIFAR-10 Batch 4:  Loss:2.3011512756347656 Accuracy: 0.125
-Epoch  1, CIFAR-10 Batch 5:  Loss:2.3023953437805176 Accuracy: 0.10000000149011612
-Epoch  2, CIFAR-10 Batch 1:  Loss:2.303225517272949 Accuracy: 0.125
-Epoch  2, CIFAR-10 Batch 2:  Loss:2.301440715789795 Accuracy: 0.07500000298023224
-Epoch  2, CIFAR-10 Batch 3:  Loss:2.301109790802002 Accuracy: 0.20000000298023224
-Epoch  2, CIFAR-10 Batch 4:  Loss:2.30122709274292 Accuracy: 0.125
-Epoch  2, CIFAR-10 Batch 5:  Loss:2.302149772644043 Accuracy: 0.10000000149011612
-Epoch  3, CIFAR-10 Batch 1:  Loss:2.302985668182373 Accuracy: 0.125
-Epoch  3, CIFAR-10 Batch 2:  Loss:2.301762342453003 Accuracy: 0.07500000298023224
-Epoch  3, CIFAR-10 Batch 3:  Loss:2.300981283187866 Accuracy: 0.20000000298023224
-Epoch  3, CIFAR-10 Batch 4:  Loss:2.30119252204895 Accuracy: 0.125
-Epoch  3, CIFAR-10 Batch 5:  Loss:2.3022847175598145 Accuracy: 0.10000000149011612
-Epoch  4, CIFAR-10 Batch 1:  Loss:2.3028225898742676 Accuracy: 0.125
-Epoch  4, CIFAR-10 Batch 2:  Loss:2.3020341396331787 Accuracy: 0.07500000298023224
-Epoch  4, CIFAR-10 Batch 3:  Loss:2.3009116649627686 Accuracy: 0.20000000298023224
-Epoch  4, CIFAR-10 Batch 4:  Loss:2.301180362701416 Accuracy: 0.125
-Epoch  4, CIFAR-10 Batch 5:  Loss:2.302354574203491 Accuracy: 0.10000000149011612
-Epoch  5, CIFAR-10 Batch 1:  Loss:2.30281400680542 Accuracy: 0.125
-Epoch  5, CIFAR-10 Batch 2:  Loss:2.3021411895751953 Accuracy: 0.07500000298023224
-Epoch  5, CIFAR-10 Batch 3:  Loss:2.3008716106414795 Accuracy: 0.20000000298023224
-Epoch  5, CIFAR-10 Batch 4:  Loss:2.3011364936828613 Accuracy: 0.125
-Epoch  5, CIFAR-10 Batch 5:  Loss:2.3023133277893066 Accuracy: 0.10000000149011612
-Epoch  6, CIFAR-10 Batch 1:  Loss:2.302809000015259 Accuracy: 0.125
-Epoch  6, CIFAR-10 Batch 2:  Loss:2.3022360801696777 Accuracy: 0.07500000298023224
-Epoch  6, CIFAR-10 Batch 3:  Loss:2.3008222579956055 Accuracy: 0.20000000298023224
-Epoch  6, CIFAR-10 Batch 4:  Loss:2.3010940551757812 Accuracy: 0.125
-Epoch  6, CIFAR-10 Batch 5:  Loss:2.3022868633270264 Accuracy: 0.10000000149011612
-Epoch  7, CIFAR-10 Batch 1:  Loss:2.3027985095977783 Accuracy: 0.125
-Epoch  7, CIFAR-10 Batch 2:  Loss:2.3022801876068115 Accuracy: 0.07500000298023224
-Epoch  7, CIFAR-10 Batch 3:  Loss:2.3007919788360596 Accuracy: 0.20000000298023224
-Epoch  7, CIFAR-10 Batch 4:  Loss:2.3010871410369873 Accuracy: 0.125
-Epoch  7, CIFAR-10 Batch 5:  Loss:2.302258253097534 Accuracy: 0.10000000149011612
-Epoch  8, CIFAR-10 Batch 1:  Loss:2.302790403366089 Accuracy: 0.125
-Epoch  8, CIFAR-10 Batch 2:  Loss:2.302234649658203 Accuracy: 0.05000000074505806
-Epoch  8, CIFAR-10 Batch 3:  Loss:2.300745725631714 Accuracy: 0.20000000298023224
-Epoch  8, CIFAR-10 Batch 4:  Loss:2.3010847568511963 Accuracy: 0.125
-Epoch  8, CIFAR-10 Batch 5:  Loss:2.3022348880767822 Accuracy: 0.10000000149011612
-Epoch  9, CIFAR-10 Batch 1:  Loss:2.3028082847595215 Accuracy: 0.125
-Epoch  9, CIFAR-10 Batch 2:  Loss:2.3023409843444824 Accuracy: 0.07500000298023224
-Epoch  9, CIFAR-10 Batch 3:  Loss:2.300767183303833 Accuracy: 0.20000000298023224
-Epoch  9, CIFAR-10 Batch 4:  Loss:2.3010807037353516 Accuracy: 0.125
-Epoch  9, CIFAR-10 Batch 5:  Loss:2.3021960258483887 Accuracy: 0.10000000149011612
-Epoch 10, CIFAR-10 Batch 1:  Loss:2.302816867828369 Accuracy: 0.125
-Epoch 10, CIFAR-10 Batch 2:  Loss:2.302377223968506 Accuracy: 0.07500000298023224
-Epoch 10, CIFAR-10 Batch 3:  Loss:2.3007640838623047 Accuracy: 0.20000000298023224
-Epoch 10, CIFAR-10 Batch 4:  Loss:2.301079273223877 Accuracy: 0.125
-Epoch 10, CIFAR-10 Batch 5:  Loss:2.302217721939087 Accuracy: 0.10000000149011612
-Epoch 11, CIFAR-10 Batch 1:  Loss:2.3027758598327637 Accuracy: 0.125
-Epoch 11, CIFAR-10 Batch 2:  Loss:2.30240797996521 Accuracy: 0.07500000298023224
-Epoch 11, CIFAR-10 Batch 3:  Loss:2.3007540702819824 Accuracy: 0.20000000298023224
-Epoch 11, CIFAR-10 Batch 4:  Loss:2.3010659217834473 Accuracy: 0.125
-Epoch 11, CIFAR-10 Batch 5:  Loss:2.302178382873535 Accuracy: 0.10000000149011612
-Epoch 12, CIFAR-10 Batch 1:  Loss:2.302823305130005 Accuracy: 0.125
-Epoch 12, CIFAR-10 Batch 2:  Loss:2.302393674850464 Accuracy: 0.07500000298023224
-Epoch 12, CIFAR-10 Batch 3:  Loss:2.3007495403289795 Accuracy: 0.20000000298023224
-Epoch 12, CIFAR-10 Batch 4:  Loss:2.301074504852295 Accuracy: 0.125
-Epoch 12, CIFAR-10 Batch 5:  Loss:2.3021490573883057 Accuracy: 0.10000000149011612
-Epoch 13, CIFAR-10 Batch 1:  Loss:2.3028359413146973 Accuracy: 0.125
-Epoch 13, CIFAR-10 Batch 2:  Loss:2.3023931980133057 Accuracy: 0.07500000298023224
-Epoch 13, CIFAR-10 Batch 3:  Loss:2.3007454872131348 Accuracy: 0.20000000298023224
-Epoch 13, CIFAR-10 Batch 4:  Loss:2.3010783195495605 Accuracy: 0.125
-Epoch 13, CIFAR-10 Batch 5:  Loss:2.3021368980407715 Accuracy: 0.10000000149011612
-Epoch 14, CIFAR-10 Batch 1:  Loss:2.3028404712677 Accuracy: 0.125
-Epoch 14, CIFAR-10 Batch 2:  Loss:2.3023934364318848 Accuracy: 0.07500000298023224
-Epoch 14, CIFAR-10 Batch 3:  Loss:2.300740957260132 Accuracy: 0.20000000298023224
-Epoch 14, CIFAR-10 Batch 4:  Loss:2.3010730743408203 Accuracy: 0.125
-Epoch 14, CIFAR-10 Batch 5:  Loss:2.302130937576294 Accuracy: 0.10000000149011612
-Epoch 15, CIFAR-10 Batch 1:  Loss:2.3028364181518555 Accuracy: 0.125
-Epoch 15, CIFAR-10 Batch 2:  Loss:2.302389621734619 Accuracy: 0.07500000298023224
-Epoch 15, CIFAR-10 Batch 3:  Loss:2.3007349967956543 Accuracy: 0.20000000298023224
-Epoch 15, CIFAR-10 Batch 4:  Loss:2.301076650619507 Accuracy: 0.125
-Epoch 15, CIFAR-10 Batch 5:  Loss:2.302143096923828 Accuracy: 0.10000000149011612
-Epoch 16, CIFAR-10 Batch 1:  Loss:2.302838087081909 Accuracy: 0.125
-Epoch 16, CIFAR-10 Batch 2:  Loss:2.302394151687622 Accuracy: 0.07500000298023224
-Epoch 16, CIFAR-10 Batch 3:  Loss:2.3007359504699707 Accuracy: 0.20000000298023224
-Epoch 16, CIFAR-10 Batch 4:  Loss:2.301072359085083 Accuracy: 0.125
-Epoch 16, CIFAR-10 Batch 5:  Loss:2.302128314971924 Accuracy: 0.10000000149011612
-Epoch 17, CIFAR-10 Batch 1:  Loss:2.3028433322906494 Accuracy: 0.125
-Epoch 17, CIFAR-10 Batch 2:  Loss:2.3023955821990967 Accuracy: 0.07500000298023224
-Epoch 17, CIFAR-10 Batch 3:  Loss:2.3007349967956543 Accuracy: 0.20000000298023224
-Epoch 17, CIFAR-10 Batch 4:  Loss:2.3010714054107666 Accuracy: 0.125
-Epoch 17, CIFAR-10 Batch 5:  Loss:2.302123546600342 Accuracy: 0.10000000149011612
-Epoch 18, CIFAR-10 Batch 1:  Loss:2.302844762802124 Accuracy: 0.125
-Epoch 18, CIFAR-10 Batch 2:  Loss:2.302396535873413 Accuracy: 0.07500000298023224
-Epoch 18, CIFAR-10 Batch 3:  Loss:2.300734519958496 Accuracy: 0.20000000298023224
-Epoch 18, CIFAR-10 Batch 4:  Loss:2.3010706901550293 Accuracy: 0.125
-Epoch 18, CIFAR-10 Batch 5:  Loss:2.302121877670288 Accuracy: 0.10000000149011612
-Epoch 19, CIFAR-10 Batch 1:  Loss:2.3028388023376465 Accuracy: 0.125
-Epoch 19, CIFAR-10 Batch 2:  Loss:2.3023922443389893 Accuracy: 0.07500000298023224
-Epoch 19, CIFAR-10 Batch 3:  Loss:2.3007302284240723 Accuracy: 0.20000000298023224
-Epoch 19, CIFAR-10 Batch 4:  Loss:2.3010761737823486 Accuracy: 0.125
-Epoch 19, CIFAR-10 Batch 5:  Loss:2.3021368980407715 Accuracy: 0.10000000149011612
-Epoch 20, CIFAR-10 Batch 1:  Loss:2.302839756011963 Accuracy: 0.125
-Epoch 20, CIFAR-10 Batch 2:  Loss:2.302396059036255 Accuracy: 0.07500000298023224
-Epoch 20, CIFAR-10 Batch 3:  Loss:2.3007328510284424 Accuracy: 0.20000000298023224
-Epoch 20, CIFAR-10 Batch 4:  Loss:2.301071882247925 Accuracy: 0.125
-Epoch 20, CIFAR-10 Batch 5:  Loss:2.3021240234375 Accuracy: 0.10000000149011612
-Epoch 21, CIFAR-10 Batch 1:  Loss:2.3028438091278076 Accuracy: 0.125
-Epoch 21, CIFAR-10 Batch 2:  Loss:2.3023972511291504 Accuracy: 0.07500000298023224
-Epoch 21, CIFAR-10 Batch 3:  Loss:2.3007328510284424 Accuracy: 0.20000000298023224
-Epoch 21, CIFAR-10 Batch 4:  Loss:2.3010847568511963 Accuracy: 0.125
-Epoch 21, CIFAR-10 Batch 5:  Loss:2.3021366596221924 Accuracy: 0.10000000149011612
-Epoch 22, CIFAR-10 Batch 1:  Loss:2.3028414249420166 Accuracy: 0.125
-Epoch 22, CIFAR-10 Batch 2:  Loss:2.3023977279663086 Accuracy: 0.07500000298023224
-Epoch 22, CIFAR-10 Batch 3:  Loss:2.3007330894470215 Accuracy: 0.20000000298023224
-Epoch 22, CIFAR-10 Batch 4:  Loss:2.301074266433716 Accuracy: 0.125
-Epoch 22, CIFAR-10 Batch 5:  Loss:2.3021233081817627 Accuracy: 0.10000000149011612
-Epoch 23, CIFAR-10 Batch 1:  Loss:2.302844762802124 Accuracy: 0.125
-Epoch 23, CIFAR-10 Batch 2:  Loss:2.3023977279663086 Accuracy: 0.07500000298023224
-Epoch 23, CIFAR-10 Batch 3:  Loss:2.3007328510284424 Accuracy: 0.20000000298023224
-Epoch 23, CIFAR-10 Batch 4:  Loss:2.3010852336883545 Accuracy: 0.125
-Epoch 23, CIFAR-10 Batch 5:  Loss:2.302136182785034 Accuracy: 0.10000000149011612
-Epoch 24, CIFAR-10 Batch 1:  Loss:2.3028416633605957 Accuracy: 0.125
-Epoch 24, CIFAR-10 Batch 2:  Loss:2.3023979663848877 Accuracy: 0.07500000298023224
-Epoch 24, CIFAR-10 Batch 3:  Loss:2.3007328510284424 Accuracy: 0.20000000298023224
-Epoch 24, CIFAR-10 Batch 4:  Loss:2.301074266433716 Accuracy: 0.125
-Epoch 24, CIFAR-10 Batch 5:  Loss:2.3021233081817627 Accuracy: 0.10000000149011612
-Epoch 25, CIFAR-10 Batch 1:  Loss:2.302845001220703 Accuracy: 0.125
-Epoch 25, CIFAR-10 Batch 2:  Loss:2.3023979663848877 Accuracy: 0.07500000298023224
-Epoch 25, CIFAR-10 Batch 3:  Loss:2.3007328510284424 Accuracy: 0.20000000298023224
-Epoch 25, CIFAR-10 Batch 4:  Loss:2.3010716438293457 Accuracy: 0.125
-Epoch 25, CIFAR-10 Batch 5:  Loss:2.302119731903076 Accuracy: 0.10000000149011612
-Epoch 26, CIFAR-10 Batch 1:  Loss:2.3028457164764404 Accuracy: 0.125
-Epoch 26, CIFAR-10 Batch 2:  Loss:2.302398204803467 Accuracy: 0.07500000298023224
-Epoch 26, CIFAR-10 Batch 3:  Loss:2.3007328510284424 Accuracy: 0.20000000298023224
-Epoch 26, CIFAR-10 Batch 4:  Loss:2.3010709285736084 Accuracy: 0.125
-Epoch 26, CIFAR-10 Batch 5:  Loss:2.302119016647339 Accuracy: 0.10000000149011612
-Epoch 27, CIFAR-10 Batch 1:  Loss:2.302839756011963 Accuracy: 0.125
-Epoch 27, CIFAR-10 Batch 2:  Loss:2.3023934364318848 Accuracy: 0.07500000298023224
-Epoch 27, CIFAR-10 Batch 3:  Loss:2.3007290363311768 Accuracy: 0.20000000298023224
-Epoch 27, CIFAR-10 Batch 4:  Loss:2.3010621070861816 Accuracy: 0.125
-Epoch 27, CIFAR-10 Batch 5:  Loss:2.302119016647339 Accuracy: 0.10000000149011612
-Epoch 28, CIFAR-10 Batch 1:  Loss:2.302838087081909 Accuracy: 0.125
-Epoch 28, CIFAR-10 Batch 2:  Loss:2.302391767501831 Accuracy: 0.07500000298023224
-Epoch 28, CIFAR-10 Batch 3:  Loss:2.3007280826568604 Accuracy: 0.20000000298023224
-Epoch 28, CIFAR-10 Batch 4:  Loss:2.3010597229003906 Accuracy: 0.125
-Epoch 28, CIFAR-10 Batch 5:  Loss:2.302119016647339 Accuracy: 0.10000000149011612
-Epoch 29, CIFAR-10 Batch 1:  Loss:2.3028438091278076 Accuracy: 0.125
-Epoch 29, CIFAR-10 Batch 2:  Loss:2.302396297454834 Accuracy: 0.07500000298023224
-Epoch 29, CIFAR-10 Batch 3:  Loss:2.3007311820983887 Accuracy: 0.20000000298023224
-Epoch 29, CIFAR-10 Batch 4:  Loss:2.30106782913208 Accuracy: 0.125
-Epoch 29, CIFAR-10 Batch 5:  Loss:2.3021187782287598 Accuracy: 0.10000000149011612
-Epoch 30, CIFAR-10 Batch 1:  Loss:2.3028454780578613 Accuracy: 0.125
-Epoch 30, CIFAR-10 Batch 2:  Loss:2.3023972511291504 Accuracy: 0.07500000298023224
-Epoch 30, CIFAR-10 Batch 3:  Loss:2.300732135772705 Accuracy: 0.20000000298023224
-Epoch 30, CIFAR-10 Batch 4:  Loss:2.301069736480713 Accuracy: 0.125
-Epoch 30, CIFAR-10 Batch 5:  Loss:2.3021187782287598 Accuracy: 0.10000000149011612
-Epoch 31, CIFAR-10 Batch 1:  Loss:2.3028457164764404 Accuracy: 0.125
-Epoch 31, CIFAR-10 Batch 2:  Loss:2.3023979663848877 Accuracy: 0.07500000298023224
-Epoch 31, CIFAR-10 Batch 3:  Loss:2.300732374191284 Accuracy: 0.20000000298023224
-Epoch 31, CIFAR-10 Batch 4:  Loss:2.30107045173645 Accuracy: 0.125
-Epoch 31, CIFAR-10 Batch 5:  Loss:2.3021187782287598 Accuracy: 0.10000000149011612
-Epoch 32, CIFAR-10 Batch 1:  Loss:2.302839756011963 Accuracy: 0.125
-Epoch 32, CIFAR-10 Batch 2:  Loss:2.3023931980133057 Accuracy: 0.07500000298023224
-Epoch 32, CIFAR-10 Batch 3:  Loss:2.3007285594940186 Accuracy: 0.20000000298023224
-Epoch 32, CIFAR-10 Batch 4:  Loss:2.3010759353637695 Accuracy: 0.125
-Epoch 32, CIFAR-10 Batch 5:  Loss:2.3021349906921387 Accuracy: 0.10000000149011612
-Epoch 33, CIFAR-10 Batch 1:  Loss:2.302839994430542 Accuracy: 0.125
-Epoch 33, CIFAR-10 Batch 2:  Loss:2.302396774291992 Accuracy: 0.07500000298023224
-Epoch 33, CIFAR-10 Batch 3:  Loss:2.300731658935547 Accuracy: 0.20000000298023224
-Epoch 33, CIFAR-10 Batch 4:  Loss:2.301085948944092 Accuracy: 0.125
-Epoch 33, CIFAR-10 Batch 5:  Loss:2.302138566970825 Accuracy: 0.10000000149011612
-Epoch 34, CIFAR-10 Batch 1:  Loss:2.3028342723846436 Accuracy: 0.125
-Epoch 34, CIFAR-10 Batch 2:  Loss:2.3023929595947266 Accuracy: 0.07500000298023224
-Epoch 34, CIFAR-10 Batch 3:  Loss:2.3007283210754395 Accuracy: 0.20000000298023224
-Epoch 34, CIFAR-10 Batch 4:  Loss:2.301065444946289 Accuracy: 0.125
-Epoch 34, CIFAR-10 Batch 5:  Loss:2.302123546600342 Accuracy: 0.10000000149011612
-Epoch 35, CIFAR-10 Batch 1:  Loss:2.3028430938720703 Accuracy: 0.125
-Epoch 35, CIFAR-10 Batch 2:  Loss:2.302396535873413 Accuracy: 0.07500000298023224
-Epoch 35, CIFAR-10 Batch 3:  Loss:2.3007314205169678 Accuracy: 0.20000000298023224
-Epoch 35, CIFAR-10 Batch 4:  Loss:2.3010692596435547 Accuracy: 0.125
-Epoch 35, CIFAR-10 Batch 5:  Loss:2.302119731903076 Accuracy: 0.10000000149011612
-Epoch 36, CIFAR-10 Batch 1:  Loss:2.302845001220703 Accuracy: 0.125
-Epoch 36, CIFAR-10 Batch 2:  Loss:2.3023974895477295 Accuracy: 0.07500000298023224
-Epoch 36, CIFAR-10 Batch 3:  Loss:2.300732374191284 Accuracy: 0.20000000298023224
-Epoch 36, CIFAR-10 Batch 4:  Loss:2.3010706901550293 Accuracy: 0.125
-Epoch 36, CIFAR-10 Batch 5:  Loss:2.302119016647339 Accuracy: 0.10000000149011612
-Epoch 37, CIFAR-10 Batch 1:  Loss:2.3028457164764404 Accuracy: 0.125
-Epoch 37, CIFAR-10 Batch 2:  Loss:2.3023977279663086 Accuracy: 0.07500000298023224
-Epoch 37, CIFAR-10 Batch 3:  Loss:2.3007326126098633 Accuracy: 0.20000000298023224
-Epoch 37, CIFAR-10 Batch 4:  Loss:2.3010706901550293 Accuracy: 0.125
-Epoch 37, CIFAR-10 Batch 5:  Loss:2.3021187782287598 Accuracy: 0.10000000149011612
-Epoch 38, CIFAR-10 Batch 1:  Loss:2.302839756011963 Accuracy: 0.125
-Epoch 38, CIFAR-10 Batch 2:  Loss:2.3023934364318848 Accuracy: 0.07500000298023224
-Epoch 38, CIFAR-10 Batch 3:  Loss:2.3007285594940186 Accuracy: 0.20000000298023224
-Epoch 38, CIFAR-10 Batch 4:  Loss:2.3010756969451904 Accuracy: 0.125
-Epoch 38, CIFAR-10 Batch 5:  Loss:2.3021347522735596 Accuracy: 0.10000000149011612
-Epoch 39, CIFAR-10 Batch 1:  Loss:2.3028340339660645 Accuracy: 0.125
-Epoch 39, CIFAR-10 Batch 2:  Loss:2.302391767501831 Accuracy: 0.07500000298023224
-Epoch 39, CIFAR-10 Batch 3:  Loss:2.3007278442382812 Accuracy: 0.20000000298023224
-Epoch 39, CIFAR-10 Batch 4:  Loss:2.301063060760498 Accuracy: 0.125
-Epoch 39, CIFAR-10 Batch 5:  Loss:2.3021225929260254 Accuracy: 0.10000000149011612
-Epoch 40, CIFAR-10 Batch 1:  Loss:2.3028430938720703 Accuracy: 0.125
-Epoch 40, CIFAR-10 Batch 2:  Loss:2.302396297454834 Accuracy: 0.07500000298023224
-Epoch 40, CIFAR-10 Batch 3:  Loss:2.3007311820983887 Accuracy: 0.20000000298023224
-Epoch 40, CIFAR-10 Batch 4:  Loss:2.3010687828063965 Accuracy: 0.125
-Epoch 40, CIFAR-10 Batch 5:  Loss:2.302119731903076 Accuracy: 0.10000000149011612
-Epoch 41, CIFAR-10 Batch 1:  Loss:2.3028452396392822 Accuracy: 0.125
-Epoch 41, CIFAR-10 Batch 2:  Loss:2.3023974895477295 Accuracy: 0.07500000298023224
-Epoch 41, CIFAR-10 Batch 3:  Loss:2.300732135772705 Accuracy: 0.20000000298023224
-Epoch 41, CIFAR-10 Batch 4:  Loss:2.301084041595459 Accuracy: 0.125
-Epoch 41, CIFAR-10 Batch 5:  Loss:2.3021349906921387 Accuracy: 0.10000000149011612
-Epoch 42, CIFAR-10 Batch 1:  Loss:2.3028416633605957 Accuracy: 0.125
-Epoch 42, CIFAR-10 Batch 2:  Loss:2.3023979663848877 Accuracy: 0.07500000298023224
-Epoch 42, CIFAR-10 Batch 3:  Loss:2.300732374191284 Accuracy: 0.20000000298023224
-Epoch 42, CIFAR-10 Batch 4:  Loss:2.3010737895965576 Accuracy: 0.125
-Epoch 42, CIFAR-10 Batch 5:  Loss:2.3021225929260254 Accuracy: 0.10000000149011612
-Epoch 43, CIFAR-10 Batch 1:  Loss:2.302845001220703 Accuracy: 0.125
-Epoch 43, CIFAR-10 Batch 2:  Loss:2.3023979663848877 Accuracy: 0.07500000298023224
-Epoch 43, CIFAR-10 Batch 3:  Loss:2.3007326126098633 Accuracy: 0.20000000298023224
-Epoch 43, CIFAR-10 Batch 4:  Loss:2.3010716438293457 Accuracy: 0.125
-Epoch 43, CIFAR-10 Batch 5:  Loss:2.302119731903076 Accuracy: 0.10000000149011612
-Epoch 44, CIFAR-10 Batch 1:  Loss:2.3028392791748047 Accuracy: 0.125
-Epoch 44, CIFAR-10 Batch 2:  Loss:2.3023929595947266 Accuracy: 0.07500000298023224
-Epoch 44, CIFAR-10 Batch 3:  Loss:2.3007287979125977 Accuracy: 0.20000000298023224
-Epoch 44, CIFAR-10 Batch 4:  Loss:2.3010761737823486 Accuracy: 0.125
-Epoch 44, CIFAR-10 Batch 5:  Loss:2.3021349906921387 Accuracy: 0.10000000149011612
-Epoch 45, CIFAR-10 Batch 1:  Loss:2.302839994430542 Accuracy: 0.125
-Epoch 45, CIFAR-10 Batch 2:  Loss:2.302396774291992 Accuracy: 0.07500000298023224
-Epoch 45, CIFAR-10 Batch 3:  Loss:2.3007314205169678 Accuracy: 0.20000000298023224
-Epoch 45, CIFAR-10 Batch 4:  Loss:2.301071882247925 Accuracy: 0.125
-Epoch 45, CIFAR-10 Batch 5:  Loss:2.3021225929260254 Accuracy: 0.10000000149011612
-Epoch 46, CIFAR-10 Batch 1:  Loss:2.302844524383545 Accuracy: 0.125
-Epoch 46, CIFAR-10 Batch 2:  Loss:2.3023974895477295 Accuracy: 0.07500000298023224
-Epoch 46, CIFAR-10 Batch 3:  Loss:2.300732374191284 Accuracy: 0.20000000298023224
-Epoch 46, CIFAR-10 Batch 4:  Loss:2.3010849952697754 Accuracy: 0.125
-Epoch 46, CIFAR-10 Batch 5:  Loss:2.302135944366455 Accuracy: 0.10000000149011612
-Epoch 47, CIFAR-10 Batch 1:  Loss:2.3028416633605957 Accuracy: 0.125
-Epoch 47, CIFAR-10 Batch 2:  Loss:2.3023979663848877 Accuracy: 0.07500000298023224
-Epoch 47, CIFAR-10 Batch 3:  Loss:2.300732374191284 Accuracy: 0.20000000298023224
-Epoch 47, CIFAR-10 Batch 4:  Loss:2.301074266433716 Accuracy: 0.125
-Epoch 47, CIFAR-10 Batch 5:  Loss:2.3021228313446045 Accuracy: 0.10000000149011612
-Epoch 48, CIFAR-10 Batch 1:  Loss:2.302845001220703 Accuracy: 0.125
-Epoch 48, CIFAR-10 Batch 2:  Loss:2.3023979663848877 Accuracy: 0.07500000298023224
-Epoch 48, CIFAR-10 Batch 3:  Loss:2.300732374191284 Accuracy: 0.20000000298023224
-Epoch 48, CIFAR-10 Batch 4:  Loss:2.3010854721069336 Accuracy: 0.125
-Epoch 48, CIFAR-10 Batch 5:  Loss:2.302135944366455 Accuracy: 0.10000000149011612
-Epoch 49, CIFAR-10 Batch 1:  Loss:2.3028416633605957 Accuracy: 0.125
-Epoch 49, CIFAR-10 Batch 2:  Loss:2.3023979663848877 Accuracy: 0.07500000298023224
-Epoch 49, CIFAR-10 Batch 3:  Loss:2.3007328510284424 Accuracy: 0.20000000298023224
-Epoch 49, CIFAR-10 Batch 4:  Loss:2.301074266433716 Accuracy: 0.125
-Epoch 49, CIFAR-10 Batch 5:  Loss:2.3021225929260254 Accuracy: 0.10000000149011612
-Epoch 50, CIFAR-10 Batch 1:  Loss:2.302845001220703 Accuracy: 0.125
-Epoch 50, CIFAR-10 Batch 2:  Loss:2.3023979663848877 Accuracy: 0.07500000298023224
-Epoch 50, CIFAR-10 Batch 3:  Loss:2.300732374191284 Accuracy: 0.20000000298023224
-Epoch 50, CIFAR-10 Batch 4:  Loss:2.3010714054107666 Accuracy: 0.125
-Epoch 50, CIFAR-10 Batch 5:  Loss:2.302119731903076 Accuracy: 0.10000000149011612
-Epoch 51, CIFAR-10 Batch 1:  Loss:2.3028392791748047 Accuracy: 0.125
-Epoch 51, CIFAR-10 Batch 2:  Loss:2.3023931980133057 Accuracy: 0.07500000298023224
-Epoch 51, CIFAR-10 Batch 3:  Loss:2.3007287979125977 Accuracy: 0.20000000298023224
-Epoch 51, CIFAR-10 Batch 4:  Loss:2.3010621070861816 Accuracy: 0.125
-Epoch 51, CIFAR-10 Batch 5:  Loss:2.302119016647339 Accuracy: 0.10000000149011612
-Epoch 52, CIFAR-10 Batch 1:  Loss:2.302844285964966 Accuracy: 0.125
-Epoch 52, CIFAR-10 Batch 2:  Loss:2.302396774291992 Accuracy: 0.07500000298023224
-Epoch 52, CIFAR-10 Batch 3:  Loss:2.300731658935547 Accuracy: 0.20000000298023224
-Epoch 52, CIFAR-10 Batch 4:  Loss:2.3010685443878174 Accuracy: 0.125
-Epoch 52, CIFAR-10 Batch 5:  Loss:2.3021187782287598 Accuracy: 0.10000000149011612
-Epoch 53, CIFAR-10 Batch 1:  Loss:2.3028457164764404 Accuracy: 0.125
-Epoch 53, CIFAR-10 Batch 2:  Loss:2.3023977279663086 Accuracy: 0.07500000298023224
-Epoch 53, CIFAR-10 Batch 3:  Loss:2.300732374191284 Accuracy: 0.20000000298023224
-Epoch 53, CIFAR-10 Batch 4:  Loss:2.301069974899292 Accuracy: 0.125
+Epoch  1, CIFAR-10 Batch 1:  Loss:2.245692729949951 Accuracy: 0.09679999947547913
+Epoch  1, CIFAR-10 Batch 2:  Loss:2.3025569915771484 Accuracy: 0.10100000351667404
+Epoch  1, CIFAR-10 Batch 3:  Loss:2.3011627197265625 Accuracy: 0.10080000013113022
+Epoch  1, CIFAR-10 Batch 4:  Loss:2.3022983074188232 Accuracy: 0.0949999988079071
+Epoch  1, CIFAR-10 Batch 5:  Loss:2.302060604095459 Accuracy: 0.0949999988079071
+Epoch  2, CIFAR-10 Batch 1:  Loss:2.3022890090942383 Accuracy: 0.09560000151395798
+Epoch  2, CIFAR-10 Batch 2:  Loss:2.3023059368133545 Accuracy: 0.10080000013113022
+Epoch  2, CIFAR-10 Batch 3:  Loss:2.301081895828247 Accuracy: 0.09520000219345093
+Epoch  2, CIFAR-10 Batch 4:  Loss:2.30214786529541 Accuracy: 0.09539999812841415
+Epoch  2, CIFAR-10 Batch 5:  Loss:2.3022513389587402 Accuracy: 0.09539999812841415
+Epoch  3, CIFAR-10 Batch 1:  Loss:2.2478222846984863 Accuracy: 0.0966000035405159
+Epoch  3, CIFAR-10 Batch 2:  Loss:2.254802703857422 Accuracy: 0.09679999947547913
+Epoch  3, CIFAR-10 Batch 3:  Loss:2.301055908203125 Accuracy: 0.09560000151395798
+Epoch  3, CIFAR-10 Batch 4:  Loss:2.3010082244873047 Accuracy: 0.09480000287294388
+Epoch  3, CIFAR-10 Batch 5:  Loss:2.302500009536743 Accuracy: 0.09480000287294388
+Epoch  4, CIFAR-10 Batch 1:  Loss:2.302622079849243 Accuracy: 0.09480000287294388
+Epoch  4, CIFAR-10 Batch 2:  Loss:2.302053451538086 Accuracy: 0.09560000151395798
+Epoch  4, CIFAR-10 Batch 3:  Loss:2.3009490966796875 Accuracy: 0.09520000219345093
+Epoch  4, CIFAR-10 Batch 4:  Loss:2.300922393798828 Accuracy: 0.09520000219345093
+Epoch  4, CIFAR-10 Batch 5:  Loss:2.302431583404541 Accuracy: 0.09480000287294388
+Epoch  5, CIFAR-10 Batch 1:  Loss:2.2520036697387695 Accuracy: 0.09520000219345093
+Epoch  5, CIFAR-10 Batch 2:  Loss:2.301919460296631 Accuracy: 0.09539999812841415
+Epoch  5, CIFAR-10 Batch 3:  Loss:2.300841808319092 Accuracy: 0.0949999988079071
+Epoch  5, CIFAR-10 Batch 4:  Loss:2.3007326126098633 Accuracy: 0.0966000035405159
+Epoch  5, CIFAR-10 Batch 5:  Loss:2.302455425262451 Accuracy: 0.09480000287294388
+Epoch  6, CIFAR-10 Batch 1:  Loss:2.3028340339660645 Accuracy: 0.09480000287294388
+Epoch  6, CIFAR-10 Batch 2:  Loss:2.3020479679107666 Accuracy: 0.09539999812841415
+Epoch  6, CIFAR-10 Batch 3:  Loss:2.300827980041504 Accuracy: 0.0949999988079071
+Epoch  6, CIFAR-10 Batch 4:  Loss:2.3008198738098145 Accuracy: 0.0949999988079071
+Epoch  6, CIFAR-10 Batch 5:  Loss:2.3023343086242676 Accuracy: 0.0949999988079071
+Epoch  7, CIFAR-10 Batch 1:  Loss:2.248732805252075 Accuracy: 0.09520000219345093
+Epoch  7, CIFAR-10 Batch 2:  Loss:2.302042007446289 Accuracy: 0.09539999812841415
+Epoch  7, CIFAR-10 Batch 3:  Loss:2.3007774353027344 Accuracy: 0.09539999812841415
+Epoch  7, CIFAR-10 Batch 4:  Loss:2.300632953643799 Accuracy: 0.09560000151395798
+Epoch  7, CIFAR-10 Batch 5:  Loss:2.3024063110351562 Accuracy: 0.0949999988079071
+Epoch  8, CIFAR-10 Batch 1:  Loss:2.235520601272583 Accuracy: 0.09939999878406525
+Epoch  8, CIFAR-10 Batch 2:  Loss:2.3017001152038574 Accuracy: 0.09539999812841415
+Epoch  8, CIFAR-10 Batch 3:  Loss:2.300715684890747 Accuracy: 0.0949999988079071
+Epoch  8, CIFAR-10 Batch 4:  Loss:2.300485849380493 Accuracy: 0.0949999988079071
+Epoch  8, CIFAR-10 Batch 5:  Loss:2.3023693561553955 Accuracy: 0.0949999988079071
+Epoch  9, CIFAR-10 Batch 1:  Loss:2.2447028160095215 Accuracy: 0.10000000149011612
+Epoch  9, CIFAR-10 Batch 2:  Loss:2.24348521232605 Accuracy: 0.10159999877214432
+Epoch  9, CIFAR-10 Batch 3:  Loss:2.300746202468872 Accuracy: 0.0957999974489212
+Epoch  9, CIFAR-10 Batch 4:  Loss:2.2997374534606934 Accuracy: 0.09520000219345093
+Epoch  9, CIFAR-10 Batch 5:  Loss:2.3026328086853027 Accuracy: 0.09520000219345093
+Epoch 10, CIFAR-10 Batch 1:  Loss:2.244548797607422 Accuracy: 0.09520000219345093
+Epoch 10, CIFAR-10 Batch 2:  Loss:2.2433853149414062 Accuracy: 0.09960000216960907
+Epoch 10, CIFAR-10 Batch 3:  Loss:2.3007330894470215 Accuracy: 0.10100000351667404
+Epoch 10, CIFAR-10 Batch 4:  Loss:2.299245595932007 Accuracy: 0.09560000151395798
+Epoch 10, CIFAR-10 Batch 5:  Loss:2.3028409481048584 Accuracy: 0.09520000219345093
+Epoch 11, CIFAR-10 Batch 1:  Loss:2.244558334350586 Accuracy: 0.09719999879598618
+Epoch 11, CIFAR-10 Batch 2:  Loss:2.244154930114746 Accuracy: 0.10260000079870224
+Epoch 11, CIFAR-10 Batch 3:  Loss:2.3005614280700684 Accuracy: 0.09459999948740005
+Epoch 11, CIFAR-10 Batch 4:  Loss:2.2993059158325195 Accuracy: 0.09480000287294388
+Epoch 11, CIFAR-10 Batch 5:  Loss:2.302694797515869 Accuracy: 0.09560000151395798
+Epoch 12, CIFAR-10 Batch 1:  Loss:2.2461562156677246 Accuracy: 0.09560000151395798
+Epoch 12, CIFAR-10 Batch 2:  Loss:2.247403383255005 Accuracy: 0.10040000081062317
+Epoch 12, CIFAR-10 Batch 3:  Loss:2.300562620162964 Accuracy: 0.09520000219345093
+Epoch 12, CIFAR-10 Batch 4:  Loss:2.299510955810547 Accuracy: 0.09600000083446503
+Epoch 12, CIFAR-10 Batch 5:  Loss:2.302708864212036 Accuracy: 0.0982000008225441
+Epoch 13, CIFAR-10 Batch 1:  Loss:2.244530200958252 Accuracy: 0.09839999675750732
+Epoch 13, CIFAR-10 Batch 2:  Loss:2.301048755645752 Accuracy: 0.09759999811649323
+Epoch 13, CIFAR-10 Batch 3:  Loss:2.300610303878784 Accuracy: 0.09480000287294388
+Epoch 13, CIFAR-10 Batch 4:  Loss:2.2998058795928955 Accuracy: 0.0949999988079071
+Epoch 13, CIFAR-10 Batch 5:  Loss:2.3025221824645996 Accuracy: 0.0957999974489212
+Epoch 14, CIFAR-10 Batch 1:  Loss:2.2445874214172363 Accuracy: 0.09619999676942825
+Epoch 14, CIFAR-10 Batch 2:  Loss:2.255061388015747 Accuracy: 0.10040000081062317
+Epoch 14, CIFAR-10 Batch 3:  Loss:2.300633668899536 Accuracy: 0.1111999973654747
+Epoch 14, CIFAR-10 Batch 4:  Loss:2.2989680767059326 Accuracy: 0.09480000287294388
+Epoch 14, CIFAR-10 Batch 5:  Loss:2.302818536758423 Accuracy: 0.09480000287294388
+Epoch 15, CIFAR-10 Batch 1:  Loss:2.2663486003875732 Accuracy: 0.09480000287294388
+Epoch 15, CIFAR-10 Batch 2:  Loss:2.258333683013916 Accuracy: 0.11259999871253967
+Epoch 15, CIFAR-10 Batch 3:  Loss:2.3006644248962402 Accuracy: 0.09459999948740005
+Epoch 15, CIFAR-10 Batch 4:  Loss:2.300144910812378 Accuracy: 0.09459999948740005
+Epoch 15, CIFAR-10 Batch 5:  Loss:2.302443027496338 Accuracy: 0.09459999948740005
+Epoch 16, CIFAR-10 Batch 1:  Loss:2.3028271198272705 Accuracy: 0.09459999948740005
+Epoch 16, CIFAR-10 Batch 2:  Loss:2.302083969116211 Accuracy: 0.09700000286102295
+Epoch 16, CIFAR-10 Batch 3:  Loss:2.3007168769836426 Accuracy: 0.094200000166893
+Epoch 16, CIFAR-10 Batch 4:  Loss:2.300779104232788 Accuracy: 0.094200000166893
+Epoch 16, CIFAR-10 Batch 5:  Loss:2.302227735519409 Accuracy: 0.094200000166893
+Epoch 17, CIFAR-10 Batch 1:  Loss:2.302830457687378 Accuracy: 0.094200000166893
+Epoch 17, CIFAR-10 Batch 2:  Loss:2.3023152351379395 Accuracy: 0.09700000286102295
+Epoch 17, CIFAR-10 Batch 3:  Loss:2.300727367401123 Accuracy: 0.094200000166893
+Epoch 17, CIFAR-10 Batch 4:  Loss:2.301001787185669 Accuracy: 0.094200000166893
+Epoch 17, CIFAR-10 Batch 5:  Loss:2.3021628856658936 Accuracy: 0.094200000166893
+Epoch 18, CIFAR-10 Batch 1:  Loss:2.302830934524536 Accuracy: 0.094200000166893
+Epoch 18, CIFAR-10 Batch 2:  Loss:2.3023717403411865 Accuracy: 0.09700000286102295
+Epoch 18, CIFAR-10 Batch 3:  Loss:2.3007285594940186 Accuracy: 0.094200000166893
+Epoch 18, CIFAR-10 Batch 4:  Loss:2.301058292388916 Accuracy: 0.094200000166893
+Epoch 18, CIFAR-10 Batch 5:  Loss:2.3021464347839355 Accuracy: 0.094200000166893
+Epoch 19, CIFAR-10 Batch 1:  Loss:2.3028311729431152 Accuracy: 0.094200000166893
+Epoch 19, CIFAR-10 Batch 2:  Loss:2.3023860454559326 Accuracy: 0.09700000286102295
+Epoch 19, CIFAR-10 Batch 3:  Loss:2.3007285594940186 Accuracy: 0.094200000166893
+Epoch 19, CIFAR-10 Batch 4:  Loss:2.301072359085083 Accuracy: 0.094200000166893
+Epoch 19, CIFAR-10 Batch 5:  Loss:2.302142381668091 Accuracy: 0.094200000166893
+Epoch 20, CIFAR-10 Batch 1:  Loss:2.3028316497802734 Accuracy: 0.094200000166893
+Epoch 20, CIFAR-10 Batch 2:  Loss:2.302389621734619 Accuracy: 0.09700000286102295
+Epoch 20, CIFAR-10 Batch 3:  Loss:2.3007283210754395 Accuracy: 0.094200000166893
+Epoch 20, CIFAR-10 Batch 4:  Loss:2.3010761737823486 Accuracy: 0.094200000166893
+Epoch 20, CIFAR-10 Batch 5:  Loss:2.302140951156616 Accuracy: 0.094200000166893
+Epoch 21, CIFAR-10 Batch 1:  Loss:2.3028316497802734 Accuracy: 0.094200000166893
+Epoch 21, CIFAR-10 Batch 2:  Loss:2.3023905754089355 Accuracy: 0.09700000286102295
+Epoch 21, CIFAR-10 Batch 3:  Loss:2.3007278442382812 Accuracy: 0.094200000166893
+Epoch 21, CIFAR-10 Batch 4:  Loss:2.301077127456665 Accuracy: 0.094200000166893
+Epoch 21, CIFAR-10 Batch 5:  Loss:2.302140474319458 Accuracy: 0.094200000166893
+Epoch 22, CIFAR-10 Batch 1:  Loss:2.3028316497802734 Accuracy: 0.094200000166893
+Epoch 22, CIFAR-10 Batch 2:  Loss:2.3023910522460938 Accuracy: 0.09700000286102295
+Epoch 22, CIFAR-10 Batch 3:  Loss:2.3007280826568604 Accuracy: 0.094200000166893
+Epoch 22, CIFAR-10 Batch 4:  Loss:2.301077365875244 Accuracy: 0.094200000166893
+Epoch 22, CIFAR-10 Batch 5:  Loss:2.3021399974823 Accuracy: 0.094200000166893
+Epoch 23, CIFAR-10 Batch 1:  Loss:2.3028318881988525 Accuracy: 0.094200000166893
+Epoch 23, CIFAR-10 Batch 2:  Loss:2.3023910522460938 Accuracy: 0.09700000286102295
+Epoch 23, CIFAR-10 Batch 3:  Loss:2.3007280826568604 Accuracy: 0.094200000166893
+Epoch 23, CIFAR-10 Batch 4:  Loss:2.301077127456665 Accuracy: 0.094200000166893
+Epoch 23, CIFAR-10 Batch 5:  Loss:2.3021399974823 Accuracy: 0.094200000166893
+Epoch 24, CIFAR-10 Batch 1:  Loss:2.3028321266174316 Accuracy: 0.094200000166893
+Epoch 24, CIFAR-10 Batch 2:  Loss:2.302391529083252 Accuracy: 0.09700000286102295
+Epoch 24, CIFAR-10 Batch 3:  Loss:2.300727605819702 Accuracy: 0.094200000166893
+Epoch 24, CIFAR-10 Batch 4:  Loss:2.301077365875244 Accuracy: 0.094200000166893
+Epoch 24, CIFAR-10 Batch 5:  Loss:2.3021399974823 Accuracy: 0.094200000166893
+Epoch 25, CIFAR-10 Batch 1:  Loss:2.3028318881988525 Accuracy: 0.094200000166893
+Epoch 25, CIFAR-10 Batch 2:  Loss:2.302391529083252 Accuracy: 0.09700000286102295
+Epoch 25, CIFAR-10 Batch 3:  Loss:2.3007278442382812 Accuracy: 0.094200000166893
+Epoch 25, CIFAR-10 Batch 4:  Loss:2.301077365875244 Accuracy: 0.094200000166893
+Epoch 25, CIFAR-10 Batch 5:  Loss:2.3021397590637207 Accuracy: 0.094200000166893
+Epoch 26, CIFAR-10 Batch 1:  Loss:2.3028321266174316 Accuracy: 0.094200000166893
+Epoch 26, CIFAR-10 Batch 2:  Loss:2.302391290664673 Accuracy: 0.09700000286102295
+Epoch 26, CIFAR-10 Batch 3:  Loss:2.300727367401123 Accuracy: 0.094200000166893
+Epoch 26, CIFAR-10 Batch 4:  Loss:2.301077365875244 Accuracy: 0.094200000166893
+Epoch 26, CIFAR-10 Batch 5:  Loss:2.3021399974823 Accuracy: 0.094200000166893
+Epoch 27, CIFAR-10 Batch 1:  Loss:2.3028321266174316 Accuracy: 0.094200000166893
+Epoch 27, CIFAR-10 Batch 2:  Loss:2.302391290664673 Accuracy: 0.09700000286102295
+Epoch 27, CIFAR-10 Batch 3:  Loss:2.300727367401123 Accuracy: 0.094200000166893
+Epoch 27, CIFAR-10 Batch 4:  Loss:2.301077127456665 Accuracy: 0.094200000166893
+Epoch 27, CIFAR-10 Batch 5:  Loss:2.3021397590637207 Accuracy: 0.094200000166893
+Epoch 28, CIFAR-10 Batch 1:  Loss:2.3028318881988525 Accuracy: 0.094200000166893
+Epoch 28, CIFAR-10 Batch 2:  Loss:2.302391529083252 Accuracy: 0.09700000286102295
+Epoch 28, CIFAR-10 Batch 3:  Loss:2.300727367401123 Accuracy: 0.094200000166893
+Epoch 28, CIFAR-10 Batch 4:  Loss:2.3010776042938232 Accuracy: 0.094200000166893
+Epoch 28, CIFAR-10 Batch 5:  Loss:2.3021397590637207 Accuracy: 0.094200000166893
+Epoch 29, CIFAR-10 Batch 1:  Loss:2.3028318881988525 Accuracy: 0.094200000166893
+Epoch 29, CIFAR-10 Batch 2:  Loss:2.302391529083252 Accuracy: 0.09700000286102295
+Epoch 29, CIFAR-10 Batch 3:  Loss:2.300727367401123 Accuracy: 0.094200000166893
+Epoch 29, CIFAR-10 Batch 4:  Loss:2.301077127456665 Accuracy: 0.094200000166893
+Epoch 29, CIFAR-10 Batch 5:  Loss:2.3021397590637207 Accuracy: 0.094200000166893
+Epoch 30, CIFAR-10 Batch 1:  Loss:2.3028321266174316 Accuracy: 0.094200000166893
+Epoch 30, CIFAR-10 Batch 2:  Loss:2.302391529083252 Accuracy: 0.09700000286102295
+Epoch 30, CIFAR-10 Batch 3:  Loss:2.300727367401123 Accuracy: 0.094200000166893
+Epoch 30, CIFAR-10 Batch 4:  Loss:2.301077365875244 Accuracy: 0.094200000166893
+Epoch 30, CIFAR-10 Batch 5:  Loss:2.3021397590637207 Accuracy: 0.094200000166893
+Epoch 31, CIFAR-10 Batch 1:  Loss:2.3028318881988525 Accuracy: 0.094200000166893
+Epoch 31, CIFAR-10 Batch 2:  Loss:2.302391529083252 Accuracy: 0.09700000286102295
+Epoch 31, CIFAR-10 Batch 3:  Loss:2.300727367401123 Accuracy: 0.094200000166893
+Epoch 31, CIFAR-10 Batch 4:  Loss:2.301077365875244 Accuracy: 0.094200000166893
+Epoch 31, CIFAR-10 Batch 5:  Loss:2.3021397590637207 Accuracy: 0.094200000166893
+Epoch 32, CIFAR-10 Batch 1:  Loss:2.3028318881988525 Accuracy: 0.094200000166893
+Epoch 32, CIFAR-10 Batch 2:  Loss:2.302391529083252 Accuracy: 0.09700000286102295
+Epoch 32, CIFAR-10 Batch 3:  Loss:2.300727367401123 Accuracy: 0.094200000166893
+Epoch 32, CIFAR-10 Batch 4:  Loss:2.301077365875244 Accuracy: 0.094200000166893
+Epoch 32, CIFAR-10 Batch 5:  Loss:2.3021397590637207 Accuracy: 0.094200000166893
+Epoch 33, CIFAR-10 Batch 1:  Loss:2.3028318881988525 Accuracy: 0.094200000166893
+Epoch 33, CIFAR-10 Batch 2:  Loss:2.302391529083252 Accuracy: 0.09700000286102295
+Epoch 33, CIFAR-10 Batch 3:  Loss:2.300727367401123 Accuracy: 0.094200000166893
+Epoch 33, CIFAR-10 Batch 4:  Loss:2.301077365875244 Accuracy: 0.094200000166893
+Epoch 33, CIFAR-10 Batch 5:  Loss:2.3021397590637207 Accuracy: 0.094200000166893
+Epoch 34, CIFAR-10 Batch 1:  Loss:2.3028318881988525 Accuracy: 0.094200000166893
 </pre>
 </div>
 </div>
